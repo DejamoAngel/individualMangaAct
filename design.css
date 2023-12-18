@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins, sans-serif';
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #39297b;
+    color: #fff;
+}
+
+
+h1{
+    text-align: center;
+    margin: 100px auto 50px;
+    font-weight: 600px;
+}
+
+.search-container {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    height: 80px;
+    background: #434989;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    /*text-align: center;
+    margin-top: 20px;*/
+}
+
+.search-input {
+    flex: 1;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    padding: 0 30px;
+    /*padding: 8px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;*/
+}
+
+.search-button {
+    padding: 0 40px;
+    height: 100%;
+    background: #088F8F;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+    /*padding: 8px 16px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;*/
+}
+
+.search-button:hover {
+    background: #5F9EA0;
+    /*background-color: #0056b3;*/
+}
+
+.results-container {
+    margin-top: 20px;
+}
+
+.results-container h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.results-container p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: justify; 
+    margin-left: 50px; 
+    margin-right: 50px; 
+    border: 2px;
+    border-style: ridge;
+    border-color: #000000;
+    border-radius: 0;
+    padding: 30px 20px 30px 20px;
+    background-color: #5F9EA0;
+}
+
+.results-container img {
+    max-width: 200px;
+    max-height: 300px;
+    margin: 0 auto; 
+    display: block; 
+    margin-bottom: 15px;
+    border-style: groove;
+    border-color: #808080;
+}
+
+::placeholder{
+    color: #fff;
+    font-size: 18px; 
+    
+}
